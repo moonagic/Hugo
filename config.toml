@@ -1,0 +1,47 @@
+baseurl = "http://vjeantet.fr/"
+copyright = "All rights reserved"
+# disqusshortname = "vjeantet"
+languagecode = "en-US"
+paginate = 10
+pluralizelisttitles = false
+theme = "casper"
+title = "雨戈林多"
+rssLimit = 20
+
+# [[menu.main]]
+# identifier = "blog"
+# name = "Blog"
+# url = "/"
+# weight = -120
+
+# [[menu.main]]
+# name = "Github repos"
+# url = "https://github.com/moonagic"
+# weight = 100
+
+# [[menu.main]]
+# name = "Twitter timeline"
+# url = "https://twitter.com/vjeantet"
+# weight = 101
+
+[params]
+author = "月杪"
+authorbio = "在大学教过书,做过游戏,iOS应用,虚幻4.只想安静的当一条咸鱼."
+authorlocation = "Chongqing, China"
+authorwebsite = "https://moonagic.com"
+cover = "images/cover.webp"
+# customFooterPartial = "netlify.html"
+description = "Laziness, Impatience and Hubris. "
+# githubName = "moonagic"
+# googleAnalyticsUserID = "UA-79101-12"
+hideHUGOSupport = false
+logo = "images/avatar.webp"
+# twitterName = "moonagic"
+
+[permalinks]
+post = "/:slug/"
+
+[sitemap]
+ChangeFreq = ""
+Filename = "sitemap.xml"
+Priority = "-1"
