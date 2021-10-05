@@ -37,6 +37,18 @@ description = "Laziness, Impatience and Hubris. "
 hideHUGOSupport = false
 logo = "images/avatar.webp"
 # twitterName = "moonagic"
+hjsStyle = "an-old-hope"
+hjsExtraLanguages = [
+	"objectivec",
+	"swift",
+	"shell",
+	"yaml",
+	"c",
+	"cpp",
+	"go",
+	"rust",
+	"bash"
+]
 
 [permalinks]
 post = "/:slug/"
