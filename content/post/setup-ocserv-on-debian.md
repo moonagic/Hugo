@@ -9,23 +9,31 @@ title = "Debian下搭建Ocserv(openconnect server),并启用证书验证"
 
 ##### 安装编译依赖:
 ```bash
-apt-get install build-essential autogen pkg-config
-apt-get install libtalloc-dev libreadline-dev libpam0g-dev libhttp-parser-dev libpcl1-dev
-apt-get install libgnutls28-dev libev-dev
-apt-get install libprotobuf-c-dev libhttp-parser-dev gnutls-bin
-# 0.11.8版本后如果系统也为Debian8可能需要
-apt-get install -t jessie-backports libgeoip-dev
-# 如果为Debian9则直接
-apt-get install libgeoip-dev
-# ocserv 0.12.0开始需要添加一个新的依赖(该依赖在0.12.0以前为可选),不然预编译的时候会出警告告诉你worker进程无法独立运行.而如果忽略该警告的话安装后无法使用Anyconnect连接
-apt-get install libseccomp-dev
+apt install \
+  build-essential \
+  autogen \
+  pkg-config \
+  protobuf-c-compiler \
+  gperf \
+  libtalloc-dev \
+  libreadline-dev \
+  libpam0g-dev \
+  libhttp-parser-dev \
+  libpcl1-dev \
+  libgnutls28-dev \
+  libev-dev \
+  libprotobuf-c-dev \
+  libhttp-parser-dev \
+  gnutls-bin \
+  libgeoip-dev \
+  libseccomp-dev
 ```
 
 ##### ocserv编译安装(目前最新版):
 ```bash
-wget https://gitlab.com/openconnect/ocserv/-/archive/1.1.2/ocserv-1.1.2.tar.gz
-tar Jxvf ocserv-1.1.2.tar.xz
-cd ocserv-1.1.2
+wget https://gitlab.com/openconnect/ocserv/-/archive/1.1.5/ocserv-1.1.5.tar.gz
+tar Jxvf ocserv-1.1.5.tar.xz
+cd ocserv-1.1.5
 ./configure --prefix=/usr --sysconfdir=/etc
 make && make install
 ```

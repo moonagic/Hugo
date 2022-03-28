@@ -1,12 +1,14 @@
 baseurl = "https://moonagic.com/"
 copyright = "All rights reserved"
 # disqusshortname = "vjeantet"
+hasCJKLanguage = true
 languagecode = "en-US"
 paginate = 10
 pluralizelisttitles = false
+rssLimit = 20
+summaryLength = 120
 theme = "casper"
 title = "雨戈林多"
-rssLimit = 20
 
 # [[menu.main]]
 # identifier = "blog"
@@ -37,18 +39,18 @@ googleAnalyticsUserID = "G-CMJWH56447"
 hideHUGOSupport = false
 logo = "images/avatar.webp"
 # twitterName = "moonagic"
-hjsStyle = "an-old-hope"
 hjsExtraLanguages = [
-	"objectivec",
-	"swift",
-	"shell",
-	"yaml",
-	"c",
-	"cpp",
-	"go",
-	"rust",
-	"bash"
+  "objectivec",
+  "swift",
+  "shell",
+  "yaml",
+  "c",
+  "cpp",
+  "go",
+  "rust",
+  "bash",
 ]
+hjsStyle = "an-old-hope"
 
 [permalinks]
 post = "/:slug/"

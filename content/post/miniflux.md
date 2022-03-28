@@ -9,7 +9,7 @@ title = "用Miniflux搭建一个自己的RSS服务"
 自从Google Reader挂掉后就一直使用Feedbin提供的RSS订阅服务,期间也想过开源解决方案搭建一个但无奈仅有的几款成熟度比较合格的方案都是PHP的产物,**我不是一个喜欢在自己的服务器上配置PHP环境的人**.  
 
 前段时间了解到miniflux这样一个用GO编写的可以自己托管的RSS订阅服务,恰恰我是一个很喜欢使用Go编写程序和使用Go编写的程序的人,于是在 [https://miniflux.app/](https://miniflux.app/) 上看了下手册后就很简单的将miniflux配置好了.  
-
+<!--more-->
 配置的过程很简单,拜Go只依赖glibc的巨大优点所赐,只需要一个二进制可执行文件就可以在几乎所有操作系统上跑起来,除了主程序外只需要按照[手册](https://miniflux.app/docs/index.html)自己配置好`Postgresql`就行.  
 
 miniflux可以在控制台开启fever api支持,这样就可以用Reeder和Unread这种第三方APP里进行阅读了.只是有些小缺点,因为fever确实太陈旧而且小众所以某些功能缺失了,比如Unread上没有向上/向下设定已读.  
