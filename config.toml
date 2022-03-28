@@ -7,7 +7,7 @@ paginate = 10
 pluralizelisttitles = false
 rssLimit = 20
 summaryLength = 120
-theme = "casper"
+# theme = "casper"
 title = "雨戈林多"
 
 # [[menu.main]]
