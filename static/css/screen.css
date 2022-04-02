@@ -638,7 +638,7 @@ body.nav-opened .nav-cover {
                         opacity 0.3s ease 0.7s;
             transition: transform 0.5s ease,
                         opacity 0.3s ease 0.7s;
-font-family: "Open Sans","Myriad Pro","Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Verdana,sans-serif;
+font-family: "PT Mono", monospace;
 font-weight: 700;
 font-size: 11px;
 color: #909090;
@@ -739,7 +739,7 @@ body.nav-opened .nav {
 .nav li a {
     text-decoration: none;
     line-height: 1.4;
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     display: block;
     padding: 0.6rem 4%;
     overflow: hidden;
