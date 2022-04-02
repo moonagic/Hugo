@@ -3,8 +3,8 @@ nav.breadcrumb{
 }
 nav.breadcrumb li {
   display: inline ;
-  font-size: 14px;
-    font-family: helvetica;
+  font-size: 12px;
+  font-family: 'PT Mono', monospace;
 }
 nav.breadcrumb li a {
   text-decoration: none;  
@@ -13,12 +13,11 @@ nav.breadcrumb li a:after {
   content: " >"; 
 }
 
-  nav.navpage {
-    font-size: 1em;
-    font-family: helvetica;
-    width: 100%;
-
-  }
+nav.navpage {
+  font-size: 1em;
+  font-family: 'PT Mono', monospace;
+  width: 100%;
+}
 
 nav.navpage > ul  {
   background: #efefef; 
@@ -37,15 +36,15 @@ nav.navpage  li {
   list-style: none;
 }
 
-  nav.navpage:after {
-    content: ""; clear: both; display: block;
-  }
+nav.navpage:after {
+  content: ""; clear: both; display: block;
+}
 
 nav.navpage  > ul >  li > a  {
-    font-weight: bold;
-    text-decoration: none;
-    font-size: 1.2em;
-    font-variant:  small-caps;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 1.2em;
+  font-variant:  small-caps;
 }
 
 
@@ -93,7 +92,7 @@ nav.navchildren{
 nav.navchildren li {
   font-size: smaller;
   line-height: 1.1em;
-  font-family: helvetica;
+  font-family: 'PT Mono', monospace;
   /*display: block;*/
   
 }
